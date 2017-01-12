@@ -1,0 +1,150 @@
+/****************
+	BASE STYLES
+****************/
+
+body {
+	margin: 0;
+}
+
+section {
+	height: 1000px;
+	background-color: #B36A5E;
+}
+
+/****************
+	NAVIGATION
+****************/
+
+nav {
+	background-color: #c89f9c;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li a {
+	font-size: 1.4em;
+}
+
+nav ul li:hover a {
+	color: #595959;
+}
+
+nav ul li:hover{
+	background-color: #eee2df;
+
+}
+
+nav ul li:hover a{
+	padding: 0 5px;
+}
+
+.navbar-logo {
+	float: right;
+	color: white;
+	font-size: 1.4em;
+	pointer-events:none;
+}
+ .active-page-li {
+ 	background-color: #eee2df;
+ }
+
+.active-page-a {
+	color: #595959;
+}
+
+/****************
+	FOOTER
+****************/
+
+footer {
+	background-color: #c89f9c;
+	color: white;
+	margin: 0;
+	padding: 1px 0;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	/*padding-top: 5px;*/
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 10px 5px 0 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer ul li:hover a {
+	color: #595959;
+}
+
+.footer-references {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.footer-copyright {
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+/****************
+	HOME
+****************/
+
+
+
+
+/****************
+	PRODUCTS
+****************/
+
+
+
+
+/****************
+	ABOUT
+****************/
+
+
+
+
+/****************
+	HISTORY
+****************/
+
+
+
+
+/****************
+	CONTACT
+****************/
+
+
+
