@@ -133,18 +133,42 @@ footer ul li:hover a {
 ****************/
 
 
-
-
 /****************
-	HISTORY
+HISTORY PAGE
 ****************/
 
+#listOfProfiles {
+	padding: 0;
+	margin: 0 auto;
+	width: 700px;
+	height: 1200px;
+}
 
+.profile ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.profile ul li {
+	height: 310px;
+	display: inline-block;
+}
+
+.bio {
+	width: 300px;
+	float: right;
+	margin: 0 12% 0 0;
+	padding: 0 0;
+	background-color: lightblue;
+}
+
+.photo {
+	border: 2px solid brown;
+	border-radius: 50%;
+}
 
 
 /****************
 	CONTACT
 ****************/
-
-
-
