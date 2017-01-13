@@ -60,13 +60,13 @@ nav ul li:hover a{
 	float: right;
 	color: white;
 	font-size: 1.4em;
-	pointer-events:none;
+	pointer-events: none;
 }
  .active-page-li {
  	background-color: #eee2df;
  }
 
-.active-page-a {
+.active-page-li a {
 	color: #595959;
 }
 
