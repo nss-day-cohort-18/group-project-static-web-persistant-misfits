@@ -221,3 +221,57 @@ HISTORY PAGE
 /****************
 	CONTACT
 ****************/
+
+#contact {
+	background-size: 750px 750px;
+	background-image: url("../images/Historybackground.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+}
+
+.contactpage {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	color: white;
+	width: 50%:;
+}
+
+.contactpage-map {
+	margin: 0 auto;
+	width: 750px;
+	overflow: hidden;
+}
+
+.contactpage-map-left {
+	width: 400px;
+	height: 250px;
+	display: inline-block;
+	margin: 4px;
+}
+
+.contactpage-map-right {
+	float: right;
+	clear: right;
+	width: 44%;
+	margin: 4px;
+	color: white;
+}
+
+#contactpage_end {
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+
+#contactpage_end a {
+	text-decoration: none;
+	color: white;
+}
+
+#contactpage_end a:hover {
+	text-transform: uppercase;
+	text-decoration: underline;
+}
