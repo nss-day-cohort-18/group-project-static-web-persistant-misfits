@@ -6,7 +6,6 @@ body {
 	margin: 0;
 	min-width: 750px;
 	background-color: #EEE2DF;
-
 }
 
 section {
@@ -148,11 +147,15 @@ HISTORY PAGE
 	display: block;
 }
 
+#listOfProfiles section {
+	background-color: rgba(144, 89, 76, 0.4);
+}
+
 .profile ul {
 	display: block;
 	width: 705px;
 	padding: 0;
-	margin: 0;
+	margin: 0 auto;
 	list-style: none;
 }
 
@@ -207,7 +210,7 @@ HISTORY PAGE
 }
 
 #history {
-	background-size: 750px 100%;
+	background-size: 750px 750px;
 	background-image: url("../images/Historybackground.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
