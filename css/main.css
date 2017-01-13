@@ -2,20 +2,14 @@
 	BASE STYLES
 ****************/
 
-/*******************************************
-
-SECTION ELEMENT IS PRESET TO HEIGHT:1000PX
-CHANGE ACCORDING TO PAGE SPACE!!!!
-
-*******************************************/
-
 body {
 	margin: 0;
+	min-width: 750px;
+	background-color: #EEE2DF;
 }
 
 section {
-	height: 1000px;
-	background-color: #B36A5E;
+	background-color: rgba(179, 106, 94, 0.4);
 }
 
 /****************
@@ -144,35 +138,83 @@ footer ul li:hover a {
 HISTORY PAGE
 ****************/
 
+
 #listOfProfiles {
 	padding: 0;
 	margin: 0 auto;
-	width: 700px;
-	height: 1200px;
+	width: 750px;
+	height: 100%;
+	display: block;
+}
+
+#listOfProfiles section {
+	background-color: rgba(144, 89, 76, 0.4);
 }
 
 .profile ul {
+	display: block;
+	width: 705px;
 	padding: 0;
-	margin: 0;
+	margin: 0 auto;
 	list-style: none;
 }
 
 .profile ul li {
-	height: 310px;
+	margin: 20px 20px;
+	height: 340px;
 	display: inline-block;
 }
 
-.bio {
-	width: 300px;
-	float: right;
-	margin: 0 12% 0 0;
-	padding: 0 0;
-	background-color: lightblue;
+.profile ul li img {
+	margin: 15px 15px;
 }
 
+.adjRight {
+	float: right;
+}
+
+.adjRight img {
+	margin: 15px 0 0 0;
+}
+
+.adjLeft {
+	float: left;
+}
+
+.name {
+	margin: 0 0 15px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.bio {
+	text-align: justify;
+	width: 325px;
+	padding: 0;
+	color: white;
+}
+
+.bioParagraph {
+	white-space: initial;
+	overflow: scroll;
+	text-align: justify;
+	width: 325px;
+	height: 90%;
+	padding: 0;
+	margin: 0;
+}
+
+
 .photo {
-	border: 2px solid brown;
 	border-radius: 50%;
+}
+
+#history {
+	background-size: 750px 750px;
+	background-image: url("../images/Historybackground.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
 }
 
 
