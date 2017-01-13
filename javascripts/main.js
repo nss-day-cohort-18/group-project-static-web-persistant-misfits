@@ -10,33 +10,43 @@
 
 
 
-
-
 //Product is an ARRAY with OBJECTS as the values
 var product = [
 	{
-		title1: "Product 1",
-		description1: "description 1",
-		price1: 1,
-		URL1: "something1.com",
+		title1: "Gibson Hummingbird Acoustic-Electric Guitar, Heritage Cherry",
+		description1: "Much of the Hummingbird's appeal lies in its versatility. However you attack this flat-top, it pumps out rich, deep tones, and is equally at home thrumming out first-position chords as it is taking the spotlight for flatpicking leadlines further up the neck. Its spacious mahogany body and sweet, select Sitka spruce top are more than capable of nailing down the rhythm in the hands of a rock and roll sideman, or of accompanying the most nuanced performance under the fingers of today' alternative singer-songwriter.",
+		price1: "PRICE: $3349.00",
+		URL1: "http://www.guitarcenter.com/Gibson/2016-Hummingbird-Square-Shoulder-Dreadnought-Acoustic-Electric-Guitar.gc",
 	},
 	{
-		title2: "Product 2",
-		description2: "description 2",
-		price2: 2,
-		URL2: "something2.com",
+		title2: "Martin Standard Series D-28 Dreadnought Acoustic Guitar",
+		description2: "The very first dreadnought guitars were designed and crafted by C. F. Martin & Co. in 1916, but marketed in Boston and New York exclusively under the Oliver Ditson brand. Originally made for Hawaiian slide playing style, the very first dreadnought made was a Model 222 shipped to Ditson in August of 1916. After Ditson went out of business in the early 1930s, Martin introduced the D-1 and D-2 dreadnoughts for standard playing style that would soon become Martin\'s iconic D-18 and D-28 models. Over the past 100 years, the Martin dreadnought has helped define what an acoustic guitar can and should be, and subsequently, it has become one of the most popular acoustic guitar designs in the world.",
+		price2: "PRICE: $2629.00",
+		URL2: "http://www.guitarcenter.com/Martin/Standard-Series-D-28-Dreadnought-Acoustic-Guitar.gc",
 	},
 	{
-		title3: "Product 3",
-		description3: "description 3",
-		price3: 3,
-		URL3: "something3.com",
+		title3: "Larrivee OM-40RWAT Orchestra Model Acoustic Guitar Natural",
+		description3: "Based on Larriv&#233e's tried-and-true X-Brace design, owner Jean Larriv&#233e blended a non-symmetrical scalloped lateral cross-bracing pattern. This means maximum strength using the least amount of material. It's a build that allows even further vibration of the soundboard, while still offering a controlled bass response. All 40 Series guitars, including the OM-40RWAT are built in America using all-solid wood, like all Larriv&#233e's, and feature brand-new upgrades like bone bridge pins, nut and saddle, diamond fingerboard dots and 18:1 open back tuners. Jean's exciting new design means a fresh new sound that is sure to appeal to traditional and long-time Larriv&#233e players alike. The OM-40RWAT features an Austrian Red spruce top paired with rosewood body, a mahogany neck with ebony fingerboard, bold rope rosette and purfling, and a tortoise pickguard.<br /><br>Includes hardshell case.",
+		price3: "PRICE: $1911.00",
+		URL3: "http://www.guitarcenter.com/Larrivee/OM-40RWAT-Orchestra-Model-Acoustic-Guitar.gc",
 	},
 	{
-		title4: "Product 4",
-		description4: "description 4",
-		price4: 4,
-		URL4: "something4.com",
+		title4: "Fender Limited Edition American Standard Telecaster Rosewood Neck Electric Guitar Surf Green Mint Green Pickguard",
+		description4: "This limited-edition exclusive from Fender is loaded with premium features, including the striking 1-piece rosewood modern C-shape neck with an etched headstock logo. It an alder body and Fender Twisted single-coil and Broadcaster pickups for buckets of fabulous tone. Other fantastic appointments include 6-saddle tele bridge, master no-load tone control and hand-rubbed oil neck finish. Includes hardshell case.",
+		price4: "PRICE: $1449.99",
+		URL4: "http://www.guitarcenter.com/Fender/Limited-Edition-American-Standard-Telecaster-Rosewood-Neck-Electric-Guitar.gc",
+	},
+	{
+		title5: "PRS 2017 SE 277 Baritone Electric Guitar",
+		description5: "Built with a longer 27.7 in. scale length, the SE 277 Baritone is perfect for heavier, more aggressive guitar playing. But this is no one trick pony. The 277\'s 85/15 pickups deliver articulate growl, allowing the 277 to handle blues and funk with flair as well.<br>Additional appointments include a string-through bridge design for strong, resonant tone. So whether you\'re interested in rocking a clean tone, picking bass lines beneath higher melodies on one guitar, or chugging out the heaviest drop-tuned riffs, the SE 277 offers versatility in a reliable package for players looking to push the envelope. Ships tuned B to B. Includes gig bag.",
+		price5: "PRICE: $749.00",
+		URL5: "http://www.guitarcenter.com/PRS/2017-SE-277-Baritone-Electric-Guitar.gc",
+	},
+	{
+		title6: "Gretsch Guitars G6136T White Falcon with Bigsby White",
+		description6: "Luxurious gold appointments and elegant white finish enhance the world-famous appeal of the classic Gretsch Guitars G6136T White Falcon. The White Falcon features dual High Sensitive Filter'Tron pickups, a vertical Gretsch headstock logo, Bigsby B6GB vibrato tailpiece, and feather engraved mother-of-pearl hump block position markers. Gretsch includes a hardshell case with the G6136T. Includes case.",
+		price6: "PRICE: $3499.00",
+		URL6: "http://www.guitarcenter.com/Gretsch-Guitars/G6136T-White-Falcon-with-Bigsby.gc",
 	},
 ];
 
@@ -44,6 +54,8 @@ var product = [
 //Grabbing the div that will be wrapping the 
 //product cards
 var sectionEntirety = document.getElementById("something");
+
+
 
 
 
@@ -62,14 +74,14 @@ The purpose of this function:
 ---*/
 function innerPushin() {
 	if (product.length >= 1) {
-		for (var prop in product) {
-			var something = product[prop];
+		for (var eachObject in product) {
+			var something = product[eachObject];
 			var myValues = [];
 			var myKeys = [];
 			// console.log(Object.values(something));
 			myValues.push(Object.values(something));
 			myKeys.push(Object.keys(something));
-			console.log(myValues);
+			console.log(myKeys, myValues);
 
 			console.log(myValues[0][1]);
 			console.log(myKeys[0][1]);
@@ -113,6 +125,9 @@ function innerPushin() {
     	}
     }
 };
+
+
+
 
 //Call'd
 innerPushin();
