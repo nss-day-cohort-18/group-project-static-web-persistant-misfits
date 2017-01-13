@@ -12,6 +12,11 @@ section {
 	background-color: rgba(179, 106, 94, 0.4);
 }
 
+#main-content {
+	float: left;
+	margin-bottom: -66px;
+}
+
 /****************
 	NAVIGATION
 ****************/
@@ -114,6 +119,10 @@ footer ul li:hover a {
 	padding-top: 10px;
 }
 
+#footer {
+	max-height: 66px;
+}
+
 
 /****************
 	HOME
@@ -126,8 +135,43 @@ footer ul li:hover a {
 	PRODUCTS
 ****************/
 
+#something {
+	border: 1px solid black;
+	padding: 0;
+	margin: 0 auto;
+	width: 75%;
+	height: 100%;
+	display: block;
+}
 
+.productCards {
+	border: 1px solid black;
+	padding: 1%;
+	background-color: rgba(144, 89, 76, 0.4);
+	display: inline-block;
+	max-width: : .25em;
+}
 
+.productCardsPhoto {
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+	margin: 20px 20px;
+	height: 340px;
+	display: inline-block;
+	float: left;
+}
+
+#doWhatIWant {
+	position: relative;
+	top: 0;
+	text-align: right;
+	display: inline-block;
+	word-wrap: break-word;
+	float: right;
+	width: 20%;
+	border: 1px solid yellow;
+}
 
 /****************
 	ABOUT
