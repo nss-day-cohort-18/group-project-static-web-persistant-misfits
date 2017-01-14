@@ -12,11 +12,6 @@ section {
 	background-color: rgba(179, 106, 94, 0.4);
 }
 
-#main-content {
-	float: left;
-	margin-bottom: -66px;
-}
-
 /****************
 	NAVIGATION
 ****************/
@@ -42,6 +37,7 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	padding: 20px;
+	margin: 0 -2px;
 }
 
 nav ul li a {
@@ -57,18 +53,15 @@ nav ul li:hover{
 
 }
 
-nav ul li:hover a{
-	padding: 5px;
-}
-
 .navbar-logo {
 	float: right;
 	color: white;
 	font-size: 1.4em;
-	pointer-events:none;
+	pointer-events: none;
 }
 
-.active-page-a {
+
+.active-page-li a {
 	color: #660000;
 }
 
@@ -176,34 +169,102 @@ footer ul li:hover a {
 	PRODUCTS
 ****************/
 
+#products-page {
+	min-width: 810px;
+	background-size: 810px 810px;
+	background-image: url("../images/Productbackground.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+}
+
 #something {
-	border: 1px solid black;
+/*	border: 2px solid blue;
+*/	background-color: rgba(144, 89, 76, 0.5);
 	padding: 0;
 	margin: 0 auto;
-	width: 75%;
+	max-width: 810px;
 	height: 100%;
 	display: block;
 }
 
 .productCards {
-	border: 1px solid black;
-	padding: 1%;
-	background-color: rgba(144, 89, 76, 0.4);
+	background-color: rgba(0, 0, 0, 0.15);
+/*	border: 2px solid green;
+*/	padding: 0;
+	margin: 5px;
 	display: inline-block;
-	max-width: : .25em;
+	width: 255px;
+	height: 480px;
+}
+
+.productCards:nth-child(3n) {
+	margin: 5px 12px 5px 0;
+}
+
+.productCards h2 {
+	font-size: 0.90em;
+}
+
+.productCards p {
+	font-size: 0.85em;
 }
 
 .productCardsPhoto {
 	padding: 0;
-	margin: 0 auto;
+	margin: 0 30%;
 	list-style: none;
-	margin: 20px 20px;
-	height: 340px;
 	display: inline-block;
-	float: left;
+/*	border: 2px solid red;
+*/}
+
+.productCardTitle {
+	text-align: center;
+	height: 35px;
+	padding: 0;
 }
 
-#doWhatIWant {
+.productCardDescription {
+	text-align: justify;
+	overflow: scroll;
+	height: 200px;
+}
+
+.productCardPrice {
+	font-weight: bold;
+}
+
+.productCardTitle,
+.productCardDescription,
+.productCardPrice,
+.productCardWebsite {
+/*	border: 2px solid yellow;
+*/	width: 240px;
+	margin: 10px auto;
+	color: white;
+}
+
+.productCardWebsite {
+	overflow: scroll;
+}
+
+#productCard2,
+#productCard3,
+#productCard5,
+#productCard6 {
+	float: right;
+}
+
+#photo1,
+#photo2,
+#photo3,
+#photo4,
+#photo5,
+#photo6 {
+	border-radius: 20%;
+}
+
+/*#doWhatIWant {
 	position: relative;
 	top: 0;
 	text-align: right;
@@ -212,7 +273,7 @@ footer ul li:hover a {
 	float: right;
 	width: 20%;
 	border: 1px solid yellow;
-}
+}*/
 
 
 /****************
@@ -296,7 +357,7 @@ HISTORY PAGE
 }
 
 #history {
-	background-size: 750px 750px;
+	background-size: 750px 810px;
 	background-image: url("../images/Historybackground.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -360,10 +421,7 @@ HISTORY PAGE
 #contactpage_end a:hover {
 	text-transform: uppercase;
 	text-decoration: underline;
-
 }
-
-
 
 /****************
 	CLEARFIX
@@ -373,3 +431,4 @@ HISTORY PAGE
 .clearfix {
   overflow: auto;
 }
+
