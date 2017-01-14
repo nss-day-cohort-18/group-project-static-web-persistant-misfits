@@ -177,6 +177,31 @@ footer ul li:hover a {
 	ABOUT
 ****************/
 
+.about-article {
+	text-align: center;
+	position: relative;
+	border-radius: 75px;
+
+}
+
+#about-wrapper {
+	text-align: center;
+}
+
+#about-article-wrapper {
+	max-width: 60%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#about-article-wrapper img {
+	width: 100%;
+	margin-top: 1em;
+	border-radius: 100%;
+	display: block;
+}
+
 
 /****************
 HISTORY PAGE
