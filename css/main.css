@@ -120,7 +120,50 @@ footer ul li:hover a {
 	HOME
 ****************/
 
+#home-wrapper {
+	color: white;
+}
 
+#home-image-background {
+	text-align: right;
+	height: 750px;
+	padding-top: 1px;
+	background: linear-gradient(#b36a5e, transparent 75%),
+				url('http://wallpapercave.com/wp/kh1thQE.jpg');
+}
+
+#home-image-background h1 {
+	font-size: 4em;
+	padding: 35px 100px 0 0;
+	font-style: italic;
+}
+
+#home-article-wrapper {
+	color: white;
+	width: 60%;
+	margin: 0 auto;
+	padding: 1px 0;
+}
+
+.home-article h2 {
+	font-size: 3em;
+	font-style: italic;
+	text-decoration: underline;
+	padding-left: 20px;
+}
+
+.home-article p {
+	font-size: 1.5em;
+	padding: 0 50px 10px 50px;
+}
+
+.home-article img{
+	display:block;
+	margin: 0 auto;
+	height: 240px;
+	width: 80%;
+	padding-bottom: 50px;
+}
 
 
 /****************
@@ -144,6 +187,22 @@ footer ul li:hover a {
 	max-width: 810px;
 	height: 100%;
 	display: block;
+}
+
+#title-products {
+	background-color: rgba(144, 89, 76, 0.4);
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 810px;
+}
+
+#title-products h3 {
+	margin: 0;
+	padding: 20px 20px;
+	color: white;
+	font-size: 3.0em;
+	font-weight: bold;
 }
 
 .productCards {
@@ -237,6 +296,55 @@ footer ul li:hover a {
 	ABOUT
 ****************/
 
+.about {
+	max-width: 60%;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 5px double black;
+	border-right: 5px double black;
+}
+
+
+.about-article {
+	text-align: center;
+	position: relative;
+	border-radius: 10px;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.margin-none {
+	margin: 0;
+}
+
+#about-title-wrap {
+	text-align: center;
+	padding-top: 1em;
+}
+
+#about-article-wrapper img {
+	width: 75%;
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100%;
+	display: block;
+	border: 3px double black;
+}
+
+#about-top-section {
+	padding-top: 1em;
+}
+
+#about-bottom-section {
+	padding-bottom: 1em;
+}
+
+
+
 
 /****************
 HISTORY PAGE
@@ -249,6 +357,22 @@ HISTORY PAGE
 	width: 750px;
 	height: 100%;
 	display: block;
+}
+
+#title-history {
+	background-color: rgba(144, 89, 76, 0.4);
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 750px;
+}
+
+#title-history h2 {
+	margin: 0 0 -18px 0;
+	padding: 20px 20px;
+	color: white;
+	font-size: 3.0em;
+	font-weight: bold;
 }
 
 #listOfProfiles section {
@@ -326,8 +450,12 @@ HISTORY PAGE
 	CONTACT
 ****************/
 
+#contacts-content {
+	width: 750px;
+	margin: 0 auto;
+}
+
 #contact {
-	background-color: #EEE2DF;
 	background-size: 750px 750px;
 	background-image: url("../images/Historybackground.jpg");
 	background-repeat: no-repeat;
