@@ -129,7 +129,7 @@ footer ul li:hover a {
 
 #products-page {
 	min-width: 900px;
-	background-size: 810px 750px;
+	background-size: 810px 810px;
 	background-image: url("../images/Productbackground.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -309,7 +309,7 @@ HISTORY PAGE
 }
 
 #history {
-	background-size: 750px 750px;
+	background-size: 750px 810px;
 	background-image: url("../images/Historybackground.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
