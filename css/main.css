@@ -4,11 +4,17 @@
 
 body {
 	margin: 0;
+	min-width: 750px;
+	background-color: #EEE2DF;
 }
 
 section {
-	height: 1000px;
-	background-color: #B36A5E;
+	background-color: rgba(179, 106, 94, 0.4);
+}
+
+#main-content {
+	float: left;
+	margin-bottom: -66px;
 }
 
 /****************
@@ -52,7 +58,7 @@ nav ul li:hover{
 }
 
 nav ul li:hover a{
-	padding: 0 5px;
+	padding: 5px;
 }
 
 .navbar-logo {
@@ -108,6 +114,10 @@ footer ul li:hover a {
 .footer-copyright {
 	text-align: center;
 	padding-top: 10px;
+}
+
+#footer {
+	max-height: 66px;
 }
 
 
@@ -166,8 +176,43 @@ footer ul li:hover a {
 	PRODUCTS
 ****************/
 
+#something {
+	border: 1px solid black;
+	padding: 0;
+	margin: 0 auto;
+	width: 75%;
+	height: 100%;
+	display: block;
+}
 
+.productCards {
+	border: 1px solid black;
+	padding: 1%;
+	background-color: rgba(144, 89, 76, 0.4);
+	display: inline-block;
+	max-width: : .25em;
+}
 
+.productCardsPhoto {
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+	margin: 20px 20px;
+	height: 340px;
+	display: inline-block;
+	float: left;
+}
+
+#doWhatIWant {
+	position: relative;
+	top: 0;
+	text-align: right;
+	display: inline-block;
+	word-wrap: break-word;
+	float: right;
+	width: 20%;
+	border: 1px solid yellow;
+}
 
 
 /****************
@@ -175,23 +220,110 @@ footer ul li:hover a {
 ****************/
 
 
-
-
 /****************
-	HISTORY
+HISTORY PAGE
 ****************/
 
 
+#listOfProfiles {
+	padding: 0;
+	margin: 0 auto;
+	width: 750px;
+	height: 100%;
+	display: block;
+}
+
+#listOfProfiles section {
+	background-color: rgba(144, 89, 76, 0.4);
+}
+
+.profile ul {
+	display: block;
+	width: 705px;
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.profile ul li {
+	margin: 20px 20px;
+	height: 340px;
+	display: inline-block;
+}
+
+.profile ul li img {
+	margin: 15px 15px;
+}
+
+.adjRight {
+	float: right;
+}
+
+.adjRight img {
+	margin: 15px 0 0 0;
+}
+
+.adjLeft {
+	float: left;
+}
+
+.name {
+	margin: 0 0 15px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.bio {
+	text-align: justify;
+	width: 325px;
+	padding: 0;
+	color: white;
+}
+
+.bioParagraph {
+	white-space: initial;
+	overflow: scroll;
+	text-align: justify;
+	width: 325px;
+	height: 90%;
+	padding: 0;
+	margin: 0;
+}
+
+
+.photo {
+	border-radius: 50%;
+}
+
+#history {
+	background-size: 750px 750px;
+	background-image: url("../images/Historybackground.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+}
 
 
 /****************
 	CONTACT
 ****************/
 
+#contact {
+	background-size: 750px 750px;
+	background-image: url("../images/Historybackground.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+}
 
+.contactpage {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	color: white;
+	width: 50%:;
+}
 
-<<<<<<< Updated upstream
-=======
 .contactpage-map {
 	margin: 0 auto;
 	width: 750px;
@@ -228,6 +360,7 @@ footer ul li:hover a {
 #contactpage_end a:hover {
 	text-transform: uppercase;
 	text-decoration: underline;
+
 }
 
 
@@ -240,4 +373,3 @@ footer ul li:hover a {
 .clearfix {
   overflow: auto;
 }
->>>>>>> Stashed changes
