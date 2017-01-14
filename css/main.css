@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 nav ul li:hover a {
-	color: #595959;
+	color: #660000;
 }
 
 nav ul li:hover{
@@ -59,12 +59,10 @@ nav ul li:hover{
 	font-size: 1.4em;
 	pointer-events: none;
 }
- .active-page-li {
- 	background-color: #eee2df;
- }
+
 
 .active-page-li a {
-	color: #595959;
+	color: #660000;
 }
 
 /****************
@@ -96,7 +94,7 @@ footer a {
 }
 
 footer ul li:hover a {
-	color: #595959;
+	color: #660000;
 }
 
 .footer-references {
@@ -120,6 +118,50 @@ footer ul li:hover a {
 	HOME
 ****************/
 
+#home-wrapper {
+	color: white;
+}
+
+#home-image-background {
+	text-align: right;
+	height: 750px;
+	padding-top: 1px;
+	background: linear-gradient(#b36a5e, transparent 75%),
+				url('http://wallpapercave.com/wp/kh1thQE.jpg');
+}
+
+#home-image-background h1 {
+	font-size: 4em;
+	padding: 35px 100px 0 0;
+	font-style: italic;
+}
+
+#home-article-wrapper {
+	color: white;
+	width: 60%;
+	margin: 0 auto;
+	padding: 1px 0;
+}
+
+.home-article h2 {
+	font-size: 3em;
+	font-style: italic;
+	text-decoration: underline;
+	padding-left: 20px;
+}
+
+.home-article p {
+	font-size: 1.5em;
+	padding: 0 50px 10px 50px;
+}
+
+.home-article img{
+	display:block;
+	margin: 0 auto;
+	height: 240px;
+	width: 80%;
+	padding-bottom: 50px;
+}
 
 
 
@@ -232,6 +274,7 @@ footer ul li:hover a {
 	width: 20%;
 	border: 1px solid yellow;
 }*/
+
 
 /****************
 	ABOUT
@@ -379,3 +422,13 @@ HISTORY PAGE
 	text-transform: uppercase;
 	text-decoration: underline;
 }
+
+/****************
+	CLEARFIX
+****************/
+
+
+.clearfix {
+  overflow: auto;
+}
+
