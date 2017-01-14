@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 nav ul li:hover a {
-	color: #660000;
+	color: #595959;
 }
 
 nav ul li:hover{
@@ -59,10 +59,12 @@ nav ul li:hover{
 	font-size: 1.4em;
 	pointer-events: none;
 }
-
+ .active-page-li {
+ 	background-color: #eee2df;
+ }
 
 .active-page-li a {
-	color: #660000;
+	color: #595959;
 }
 
 /****************
@@ -94,7 +96,7 @@ footer a {
 }
 
 footer ul li:hover a {
-	color: #660000;
+	color: #595959;
 }
 
 .footer-references {
@@ -164,7 +166,6 @@ footer ul li:hover a {
 }
 
 
-
 /****************
 	PRODUCTS
 ****************/
@@ -186,6 +187,22 @@ footer ul li:hover a {
 	max-width: 810px;
 	height: 100%;
 	display: block;
+}
+
+#title-products {
+	background-color: rgba(144, 89, 76, 0.4);
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 810px;
+}
+
+#title-products h3 {
+	margin: 0;
+	padding: 20px 20px;
+	color: white;
+	font-size: 3.0em;
+	font-weight: bold;
 }
 
 .productCards {
@@ -275,10 +292,58 @@ footer ul li:hover a {
 	border: 1px solid yellow;
 }*/
 
-
 /****************
 	ABOUT
 ****************/
+
+.about {
+	max-width: 60%;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 5px double black;
+	border-right: 5px double black;
+}
+
+
+.about-article {
+	text-align: center;
+	position: relative;
+	border-radius: 10px;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.margin-none {
+	margin: 0;
+}
+
+#about-title-wrap {
+	text-align: center;
+	padding-top: 1em;
+}
+
+#about-article-wrapper img {
+	width: 75%;
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100%;
+	display: block;
+	border: 3px double black;
+}
+
+#about-top-section {
+	padding-top: 1em;
+}
+
+#about-bottom-section {
+	padding-bottom: 1em;
+}
+
+
 
 
 /****************
@@ -292,6 +357,22 @@ HISTORY PAGE
 	width: 750px;
 	height: 100%;
 	display: block;
+}
+
+#title-history {
+	background-color: rgba(144, 89, 76, 0.4);
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 750px;
+}
+
+#title-history h2 {
+	margin: 0 0 -18px 0;
+	padding: 20px 20px;
+	color: white;
+	font-size: 3.0em;
+	font-weight: bold;
 }
 
 #listOfProfiles section {
@@ -369,9 +450,14 @@ HISTORY PAGE
 	CONTACT
 ****************/
 
+#contacts-content {
+	width: 750px;
+	margin: 0 auto;
+}
+
 #contact {
 	background-size: 750px 750px;
-	background-image: url("../images/Historybackground.jpg");
+	background-image: url("../images/Contactsbackground.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center top;
@@ -422,13 +508,3 @@ HISTORY PAGE
 	text-transform: uppercase;
 	text-decoration: underline;
 }
-
-/****************
-	CLEARFIX
-****************/
-
-
-.clearfix {
-  overflow: auto;
-}
-
