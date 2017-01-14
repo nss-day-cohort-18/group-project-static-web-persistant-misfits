@@ -1,0 +1,243 @@
+/****************
+	BASE STYLES
+****************/
+
+body {
+	margin: 0;
+}
+
+section {
+	height: 1000px;
+	background-color: #B36A5E;
+}
+
+/****************
+	NAVIGATION
+****************/
+
+nav {
+	background-color: #c89f9c;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li a {
+	font-size: 1.4em;
+}
+
+nav ul li:hover a {
+	color: #660000;
+}
+
+nav ul li:hover{
+	background-color: #eee2df;
+
+}
+
+nav ul li:hover a{
+	padding: 0 5px;
+}
+
+.navbar-logo {
+	float: right;
+	color: white;
+	font-size: 1.4em;
+	pointer-events:none;
+}
+
+.active-page-a {
+	color: #660000;
+}
+
+/****************
+	FOOTER
+****************/
+
+footer {
+	background-color: #c89f9c;
+	color: white;
+	margin: 0;
+	padding: 1px 0;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	/*padding-top: 5px;*/
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 10px 5px 0 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer ul li:hover a {
+	color: #660000;
+}
+
+.footer-references {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.footer-copyright {
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+/****************
+	HOME
+****************/
+
+#home-wrapper {
+	color: white;
+}
+
+#home-image-background {
+	text-align: right;
+	height: 750px;
+	padding-top: 1px;
+	background: linear-gradient(#b36a5e, transparent 75%),
+				url('http://wallpapercave.com/wp/kh1thQE.jpg');
+}
+
+#home-image-background h1 {
+	font-size: 4em;
+	padding: 35px 100px 0 0;
+	font-style: italic;
+}
+
+#home-article-wrapper {
+	color: white;
+	width: 60%;
+	margin: 0 auto;
+	padding: 1px 0;
+}
+
+.home-article h2 {
+	font-size: 3em;
+	font-style: italic;
+	text-decoration: underline;
+	padding-left: 20px;
+}
+
+.home-article p {
+	font-size: 1.5em;
+	padding: 0 50px 10px 50px;
+}
+
+.home-article img{
+	display:block;
+	margin: 0 auto;
+	height: 240px;
+	width: 80%;
+	padding-bottom: 50px;
+}
+
+
+
+/****************
+	PRODUCTS
+****************/
+
+
+
+
+
+/****************
+	ABOUT
+****************/
+
+
+
+
+/****************
+	HISTORY
+****************/
+
+
+
+
+/****************
+	CONTACT
+****************/
+
+
+
+<<<<<<< Updated upstream
+=======
+.contactpage-map {
+	margin: 0 auto;
+	width: 750px;
+	overflow: hidden;
+}
+
+.contactpage-map-left {
+	width: 400px;
+	height: 250px;
+	display: inline-block;
+	margin: 4px;
+}
+
+.contactpage-map-right {
+	float: right;
+	clear: right;
+	width: 44%;
+	margin: 4px;
+	color: white;
+}
+
+#contactpage_end {
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+
+#contactpage_end a {
+	text-decoration: none;
+	color: white;
+}
+
+#contactpage_end a:hover {
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+
+
+/****************
+	CLEARFIX
+****************/
+
+
+.clearfix {
+  overflow: auto;
+}
+>>>>>>> Stashed changes
