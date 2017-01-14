@@ -128,7 +128,7 @@ footer ul li:hover a {
 ****************/
 
 #products-page {
-	min-width: 900px;
+	min-width: 810px;
 	background-size: 810px 810px;
 	background-image: url("../images/Productbackground.jpg");
 	background-repeat: no-repeat;
