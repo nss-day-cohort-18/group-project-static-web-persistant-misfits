@@ -147,12 +147,17 @@ footer ul li:hover a {
 }
 
 .productCards {
+	background-color: rgba(0, 0, 0, 0.15);
 /*	border: 2px solid green;
 */	padding: 0;
 	margin: 5px;
 	display: inline-block;
 	width: 255px;
 	height: 480px;
+}
+
+.productCards:nth-child(3n) {
+	margin: 5px 12px 5px 0;
 }
 
 .productCards h2 {
