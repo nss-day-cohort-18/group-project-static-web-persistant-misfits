@@ -61,7 +61,7 @@ var product = [
 //product cards
 var sectionEntirety = document.getElementById("something");
 
-
+var productLength = product.length;
 
 
 
@@ -79,6 +79,9 @@ The purpose of this function:
 8. Append elements appropriately
 ---*/
 var counter = 0;
+var margin1 = 1;
+var margin2 = 2;
+var margin3 = 3;
 
 function innerPushin() {
 	if (product.length >= 1) {
@@ -129,18 +132,42 @@ function innerPushin() {
 			totalCard.id = "productCard" + counter.toString();
 
 
+			//This is giving each product card a 
+			//specific class name based on location of the page
+			//so all margin's in between are the same
+			if ((productLength - 2) === counter) {
+				totalCard.className += " slight-margin4";
+				margin1 += 3;
+			} else if ((productLength - 1) === counter) {
+				totalCard.className += " slight-margin5";
+				margin2 += 3;
+			} else if (productLength === counter) {
+				totalCard.className += " slight-margin6";
+				margin3 += 3;
+			} else if (counter === 1) {
+				totalCard.className += " slight-margin1";
+				margin1 += 3;
+			} else if (counter === 2) {
+				totalCard.className += " slight-margin2";
+				margin2 += 3;
+			} else if (counter === 3) {
+				totalCard.className += " slight-margin3";
+				margin3 += 3;
+			} else if (counter === margin1) {
+				totalCard.className += " slight-margin7";
+				margin1 += 3;
+			} else if (counter === margin3) {
+				totalCard.className += " slight-margin8";
+				margin3 += 1;
+			} else {
+				totalCard.className += " regular-margin";
+			};
+			
+
+
 			/*========================================*/
 			/*========================================*/
 
-
-			//Create div to hold all descriptions for the 
-			//productcard. Title, description, price, and url
-			// var cardInfo = document.createElement("div");
-			// if (counter % 2 === 0) {
-			// 	cardInfo.className = "cardInfo adjRight";
-			// } else {
-			// 	cardInfo.className = "cardInfo adjLeft";
-			// };
 
 			//Create description elements with 
 			//appropriate classes and id's
@@ -153,9 +180,11 @@ function innerPushin() {
 			var price = document.createElement("p");
 			price.id = priceIdName + " doWhatIWant";
 			price.className = "productCardPrice";
-			var website = document.createElement("p");
+			var website = document.createElement("a");
 			website.id = websiteIdName + " doWhatIWant";
 			website.className = "productCardWebsite";
+			website.href = websiteContent;
+			website.target = "_blank";
 
 
 			/*========================================*/
@@ -165,11 +194,6 @@ function innerPushin() {
 			//Create div for photo
 			var photoDiv = document.createElement("div");
 			photoDiv.className = "productCardsPhoto";
-			// if (counter % 2 === 0) {
-			// 	photoDiv.className = "productCardsPhoto adjLeft";
-			// } else {
-			// 	photoDiv.className = "productCardsPhoto adjRight";
-			// };
 
 			//Creating img tag to put img content into
 			var img = document.createElement("IMG");
@@ -198,13 +222,23 @@ function innerPushin() {
 			/*========================================*/
 			
 
+			//This function is to give each link tag within 
+			//product card a custom URL
+			function truncateAfter(original, pattern) {
+				var patternPlace = original.indexOf(pattern);
+  				var firstSection = original.substring(0, patternPlace + pattern.length); 
+  				var secondSection = original.substring(patternPlace + pattern.length, original.indexOf("/", patternPlace + pattern.length));
+  				return (firstSection + secondSection);
+			};
+
 			//Adding content to image
 			img.src = photoContent;
 
 			head.innerHTML += titleContent;
 			para.innerHTML += descriptionContent;
 			price.innerHTML += priceContent;
-			website.innerHTML += websiteContent;
+			website.innerHTML += truncateAfter(websiteContent, "com/");
+
 
 
 			/*========================================*/
