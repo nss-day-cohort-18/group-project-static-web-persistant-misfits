@@ -181,12 +181,14 @@ footer ul li:hover a {
 	max-width: 80.3%;
 	height: 100%;
 	font-size: 2em;
-	padding: 20px 0;
+	padding: 0;
+	min-width: 900px;
 }
 
 .title-products h3 {
 	margin: 0;
-	padding: 0;
+	padding: 2%;
+	background-color: rgba(144, 89, 76, 0.5);
 }
 
 #something {
