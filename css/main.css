@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 nav ul li:hover a {
-	color: #595959;
+	color: #660000;
 }
 
 nav ul li:hover{
@@ -64,7 +64,7 @@ nav ul li:hover{
  }
 
 .active-page-li a {
-	color: #595959;
+	color: #660000;
 }
 
 /****************
@@ -96,7 +96,7 @@ footer a {
 }
 
 footer ul li:hover a {
-	color: #595959;
+	color: #660000;
 }
 
 .footer-references {
@@ -139,7 +139,7 @@ footer ul li:hover a {
 }
 
 #home-article-wrapper {
-	color: white;
+	color: #660000;
 	width: 60%;
 	margin: 0 auto;
 	padding: 1px 0;
