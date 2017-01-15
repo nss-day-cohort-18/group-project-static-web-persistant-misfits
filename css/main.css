@@ -314,6 +314,57 @@ footer ul li:hover a {
 	margin: 1%;
 }
 
+/****************
+	ABOUT
+****************/
+
+.about {
+	max-width: 60%;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 5px double black;
+	border-right: 5px double black;
+}
+
+
+.about-article {
+	text-align: center;
+	position: relative;
+	border-radius: 10px;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.margin-none {
+	margin: 0;
+}
+
+#about-title-wrap {
+	text-align: center;
+	padding-top: 1em;
+}
+
+#about-article-wrapper img {
+	width: 75%;
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100%;
+	display: block;
+	border: 3px double black;
+}
+
+#about-top-section {
+	padding-top: 1em;
+}
+
+#about-bottom-section {
+	padding-bottom: 1em;
+}
+
 
 
 
