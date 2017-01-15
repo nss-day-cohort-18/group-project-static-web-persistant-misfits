@@ -170,9 +170,23 @@ footer ul li:hover a {
 	PRODUCTS
 ****************/
 
+#whole-products-html {
+	min-width: 1120px;
+}
+
 .title-products {
 	text-align: center;
 	color: white;
+	margin: 0 auto;
+	max-width: 80.3%;
+	height: 100%;
+	font-size: 2em;
+	padding: 20px 0;
+}
+
+.title-products h3 {
+	margin: 0;
+	padding: 0;
 }
 
 #something {
@@ -189,9 +203,10 @@ footer ul li:hover a {
 	margin-right: auto;
 	background-image: url("../images/Productbackground.jpg");
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: inherit;
 	background-position: center top;
-	background-size: 80% 100%;
+	background-size: 80.4% 100%;
+	min-width: 900px;
 }
 
 .productCards {
@@ -283,14 +298,12 @@ footer ul li:hover a {
 .slight-margin3 {
 	margin-top: 2%; 
 	margin-right: 2%;
-/*	position: right top;
-*/}
+}
 
 .slight-margin4 {
 	margin-left: 2%;
 	margin-bottom: 2%;
-/*	position: left bottom;
-*/}
+}
 
 .slight-margin5 {
 	margin-bottom: 2%;
@@ -299,8 +312,7 @@ footer ul li:hover a {
 .slight-margin6 {
 	margin-right: 2%;
 	margin-bottom: 2%;
-/*	position: right bottom;
-*/}
+}
 
 .slight-margin7 {
 	margin-left: 2%;
@@ -313,6 +325,7 @@ footer ul li:hover a {
 .regular-margin {
 	margin: 1%;
 }
+
 
 /****************
 	ABOUT
