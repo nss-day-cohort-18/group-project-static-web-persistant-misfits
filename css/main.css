@@ -340,6 +340,18 @@ footer ul li:hover a {
 	ABOUT
 ****************/
 
+.about-start-end {
+	max-width: 50%;
+	text-align: center;
+	margin: 1em auto;
+	color: white;
+	border: 2px solid black;
+	background-color: #c89f9c;
+	border-radius: 25px;
+	clear: both;
+}
+
+
 #body {
 	display: block;
 	clear: both;
@@ -347,13 +359,13 @@ footer ul li:hover a {
 }
 
 #about1 {
-	max-width: 80%;
+	max-width: 60%;
 	height: 300px;
 
 	margin-top: 2em;
 	margin-bottom: 2em;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
 
 	border: 5px double black;
 	border-radius: 50px;
@@ -373,10 +385,10 @@ footer ul li:hover a {
 /*******************/
 
 #about2 {
-	width: 35%;
+	width: 30%;
 	height: 300px;
 
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-bottom: 2em;
 	display: inline-block;
 	float: left;
@@ -404,10 +416,10 @@ footer ul li:hover a {
 }
 
 #about3 {
-	width: 35%;
+	width: 30%;
 	height: 300px;
 
-	margin-right: 10%;
+	margin-right: 15%;
 	margin-bottom: 2em;
 	display: inline-block;
 	float: right;
@@ -466,10 +478,10 @@ footer ul li:hover a {
 
 
 #about5 {
-	width: 35%;
+	width: 30%;
 	height: 300px;
 
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-bottom: 2em;
 	display: inline-block;
 	float: left;
@@ -497,10 +509,10 @@ footer ul li:hover a {
 }
 
 #about6 {
-	width: 35%;
+	width: 30%;
 	height: 300px;
 
-	margin-right: 10%;
+	margin-right: 15%;
 	margin-bottom: 2em;
 	display: inline-block;
 	float: right;
