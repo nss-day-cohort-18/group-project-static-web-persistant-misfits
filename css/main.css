@@ -113,6 +113,7 @@ footer ul li:hover a {
 
 #footer {
 	max-height: 66px;
+	clear: both;
 }
 
 
