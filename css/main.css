@@ -12,6 +12,12 @@ section {
 	background-color: rgba(179, 106, 94, 0.4);
 }
 
+.container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
 /****************
 	NAVIGATION
 ****************/
@@ -421,6 +427,10 @@ footer ul li:hover a {
 	border-radius: 50px;
 }
 
+#about3-content > h2 {
+	padding: 1em;
+}
+
 
 
 
@@ -480,6 +490,10 @@ footer ul li:hover a {
 	margin-top: 15%;
 	background-color: #EEE2DF;
 	border-radius: 50px;
+}
+
+#about5-content > h2 {
+	padding: 1em;
 }
 
 #about6 {
