@@ -333,51 +333,182 @@ footer ul li:hover a {
 	ABOUT
 ****************/
 
-.about {
-	max-width: 60%;
-	margin-top: 0;
-	margin-left: auto;
-	margin-right: auto;
-	border-left: 5px double black;
-	border-right: 5px double black;
-}
-
-
-.about-article {
-	text-align: center;
-	position: relative;
-	border-radius: 10px;
-	width: 85%;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-.margin-none {
-	margin: 0;
-}
-
-#about-title-wrap {
-	text-align: center;
-	padding-top: 1em;
-}
-
-#about-article-wrapper img {
-	width: 75%;
-	margin-top: 1em;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 100%;
+#body {
 	display: block;
-	border: 3px double black;
+	clear: both;
+	padding-bottom: 10%;
 }
 
-#about-top-section {
-	padding-top: 1em;
+#about1 {
+	max-width: 80%;
+	height: 300px;
+
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	border: 5px double black;
+	border-radius: 50px;
+	background-color: white;
 }
 
-#about-bottom-section {
-	padding-bottom: 1em;
+#about1-filler {
+	margin-left: 30%;
+	margin-right: 30%;
+
+	background-image: url("../images/cat2.jpg");
+	background-position: center;
+	background-repeat: none;
+	height: 100%;
+}
+
+/*******************/
+
+#about2 {
+	width: 35%;
+	height: 300px;
+
+	margin-left: 10%;
+	margin-bottom: 2em;
+	display: inline-block;
+	float: left;
+
+	border: 5px double black;
+	border-radius: 50px;
+
+	background-color: black;
+}
+
+
+#about2-filler {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
+	width: 80%;
+	height: 70%;
+
+	background-image: url("https://media.giphy.com/media/iU2yJX5YKI9pe/giphy.gif");	
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
+	background-size: 94%;
+	background-repeat: none;
+}
+
+#about3 {
+	width: 35%;
+	height: 300px;
+
+	margin-right: 10%;
+	margin-bottom: 2em;
+	display: inline-block;
+	float: right;
+
+	border: 5px double black;
+	border-radius: 50px;
+	background-color: #c89f9c;
+}
+
+#about3-content {
+	text-align: center;
+	height: 70%;
+	width: 70%;
+	margin-top: 10%;
+	margin-left: 15%;
+	background-color: #EEE2DF;
+	border-radius: 50px;
+}
+
+
+
+
+/*******************/
+
+#about4 {
+	max-width: 80%;
+	height: 300px;
+
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	border: 5px double black;
+	border-radius: 50px;
+	background-color: white;
+
+	clear: both;
+}
+
+#about4-filler {
+	margin-left: 30%;
+	margin-right: 30%;
+
+	background-image: url("../images/cat2-flipped.jpg");
+	background-position: center;
+	background-repeat: none;
+	height: 100%;
+}
+
+/*******************/
+
+
+#about5 {
+	width: 35%;
+	height: 300px;
+
+	margin-left: 10%;
+	margin-bottom: 2em;
+	display: inline-block;
+	float: left;
+
+	border: 5px double black;
+	border-radius: 50px;
+	background-color: #c89f9c;
+
+	vertical-align: middle;
+	text-align: center;
+}
+
+#about5-content {
+	text-align: center;
+	height: 60%;
+	width: 70%;
+	margin: 15%;
+	margin-top: 15%;
+	background-color: #EEE2DF;
+	border-radius: 50px;
+}
+
+#about6 {
+	width: 35%;
+	height: 300px;
+
+	margin-right: 10%;
+	margin-bottom: 2em;
+	display: inline-block;
+	float: right;
+
+	border: 5px double black;
+	border-radius: 50px;
+
+	background-color: black;
+}
+
+#about6-filler {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 12.5%;
+	width: 80%;
+	height: 65%;
+
+	background-image: url("https://68.media.tumblr.com/21dbff4f6e5fe7fcce3c3a85c5d9388b/tumblr_n5ra7tp0Ip1qfqv8do1_500.gif");	
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
+	background-size: 100%;
+	background-repeat: none;
 }
 
 
